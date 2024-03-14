@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="@drawable/aa"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CustomerFragmentParking">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the Date and Time!"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="250dp"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/dateBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="136dp"
+            android:src="@drawable/ic_baseline_calendar_month"
+            tools:layout_editor_absoluteX="193dp" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/textDateBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/swipeRefresh"
+        />
+
+
+    <Spinner
+        android:id="@+id/timeBox"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/textDateBox"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <Button
+        android:id="@+id/dateBtn"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_rectangle1"
+        android:gravity="center"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

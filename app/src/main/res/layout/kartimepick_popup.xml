@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dd"
+    android:gravity="center_horizontal">
+    <!--update product by admin-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="Pick Your Slot"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the Date and Time!"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/dateBox"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_calendar_month" />
+
+    <TextView
+        android:id="@+id/textDateBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/timeBox"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/dateBtn"
+        android:layout_width="77dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_rectangle1"
+        android:gravity="center"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

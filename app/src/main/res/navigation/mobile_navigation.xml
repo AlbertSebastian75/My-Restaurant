@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_park"
+        android:name="com.example.albert.ui.park.ParkFragment"
+        android:label="@string/menu_park"
+        tools:layout="@layout/fragment_park" />
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.example.albert.ui.area.AreaFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_area" />
+    <fragment
+        android:id="@+id/nav_table"
+        android:name="com.example.albert.ui.tables.TableFragment"
+        android:label="@string/menu_table"
+        tools:layout="@layout/fragment_table" />
+    <fragment
+        android:id="@+id/nav_viewAvailTable"
+        android:name="com.example.albert.ui.viewAvailTable.ViewAvailTableFragment"
+        android:label="@string/menu_viewAvailTable"
+        tools:layout="@layout/fragment_view_avail_table" />
+    <fragment
+        android:id="@+id/nav_viewAvailPark"
+        android:name="com.example.albert.ui.viewAvailPark.ViewAvailParkFragment"
+        android:label="@string/menu_viewAvailPark" />
+    <fragment
+        android:id="@+id/nav_slot"
+        android:name="com.example.albert.ui.slot.SlotFragment"
+        android:label="@string/menu_slot"
+        tools:layout="@layout/fragment_slot" />
+    <fragment
+        android:id="@+id/nav_addProducts"
+        android:name="com.example.albert.ui.addproducts.AddProductsFragment"
+        android:label="@string/menu_addProducts"
+        tools:layout="@layout/fragment_add_products" />
+    <fragment
+        android:id="@+id/nav_block"
+        android:name="com.example.albert.ui.block.BlockFragment"
+        android:label="@string/menu_block"
+        tools:layout="@layout/fragment_block" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.albert.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_categoryListener"
+        android:name="com.example.albert.ui.viewproducts.CategoryListenerFragment"
+        android:label="@string/menu_categoryListener"
+        tools:layout="@layout/fragment_category_listener" />
+    <fragment
+        android:id="@+id/nav_viewProducts"
+        android:name="com.example.albert.ui.viewproducts.ViewProductsFragment"
+        android:label="@string/menu_viewProducts"
+        tools:layout="@layout/fragment_view_products" />
+    <fragment
+        android:id="@+id/nav_viewUsers"
+        android:name="com.example.albert.ui.viewusers.ViewUsersFragment"
+        android:label="@string/menu_viewUsers"
+        tools:layout="@layout/fragment_view_users" />
+    <fragment
+        android:id="@+id/nav_staff"
+        android:name="com.example.albert.ui.staff.StaffFragment"
+        android:label="@string/menu_staff"
+        tools:layout="@layout/fragment_staff" />
+    <fragment
+        android:id="@+id/nav_staffRequests"
+        android:name="com.example.albert.ui.staffrequests.StaffRequestsFragment"
+        android:label="@string/menu_staffRequests"
+        tools:layout="@layout/fragment_staff_requests" />
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.albert.ui.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" />
+</navigation>

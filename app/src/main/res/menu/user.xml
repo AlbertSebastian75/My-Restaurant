@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/viewRestaurantDetails"
+        android:icon="@drawable/ic_baseline_preview_24"
+        android:title="About"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/viewRestaurantReviews"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Reviews"
+        app:showAsAction="ifRoom" />
+</menu>

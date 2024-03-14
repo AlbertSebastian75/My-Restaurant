@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_park"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="@string/menu_park" />
+
+        <item android:title="Dashboard">
+            <menu>
+                <item
+                    android:id="@+id/nav_viewAvailTable"
+                    android:icon="@drawable/ic_baseline_table_bar_24"
+                    android:title="@string/menu_viewAvailTable" />
+                <item
+                    android:id="@+id/nav_viewAvailPark"
+                    android:icon="@drawable/ic_baseline_directions_car_filled_24"
+                    android:title="@string/menu_viewAvailPark" />
+            </menu>
+        </item>
+
+        <item android:title="Restaurant">
+            <menu>
+                <item
+                    android:id="@+id/nav_block"
+                    android:icon="@drawable/ic_baseline_category"
+                    android:title="@string/menu_block"/>
+                <item
+                    android:id="@+id/nav_table"
+                    android:icon="@drawable/ic_baseline_table_restaurant_24"
+                    android:title="@string/menu_table"/>
+                <item
+                    android:id="@+id/nav_area"
+                    android:icon="@drawable/ic_baseline_local_parking"
+                    android:title="@string/menu_area"/>
+                <item
+                    android:id="@+id/nav_slot"
+                    android:icon="@drawable/ic_baseline_drive_eta_24"
+                    android:title="@string/menu_slot"/>
+            </menu>
+        </item>
+
+        <item android:title="Products">
+            <menu>
+                <item
+                    android:id="@+id/nav_viewProducts"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/menu_viewProducts" />
+                <item
+                    android:id="@+id/nav_addProducts"
+                    android:icon="@drawable/ic_baseline_add_to_photos"
+                    android:title="@string/menu_addProducts"/>
+                <item
+                    android:id="@+id/nav_categories"
+                    android:icon="@drawable/ic_baseline_business_center"
+                    android:title="@string/menu_categories" />
+            </menu>
+        </item>
+
+
+        <item android:title="Users">
+            <menu>
+                <item
+                    android:id="@+id/nav_staff"
+                    android:icon="@drawable/ic_baseline_co_present"
+                    android:title="@string/menu_staff"/>
+                <item
+                    android:id="@+id/nav_viewUsers"
+                    android:icon="@drawable/ic_baseline_groups"
+                    android:title="@string/menu_viewUsers"/>
+                <item
+                    android:id="@+id/nav_staffRequests"
+                    android:icon="@drawable/ic_baseline_approval"
+                    android:title="@string/menu_staffRequests"/>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:gravity= "center"
+    android:background="@color/bluee">
+    <!--View products by admin-->
+
+    <TextView
+        android:id="@+id/SlotListenerName"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:text="Albert"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/Count"
+        android:background="#DC143C"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:text="Albert"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

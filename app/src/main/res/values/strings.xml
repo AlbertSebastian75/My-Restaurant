@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Restaurant</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">LogOut</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_park">Parking</string>
+    <string name="menu_viewUsers">Customers</string>
+    <string name="menu_staffRequests">Staff Requests</string>
+    <string name="menu_staff">Staff</string>
+
+    <string name="menu_viewProducts">Products</string>
+    <string name="menu_addProducts">Add Products</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_categoryListener">Category Listener</string>
+
+    <string name="menu_block">Table Category</string>
+    <string name="menu_table">Tables</string>
+    <string name="menu_area">Parking Category</string>
+    <string name="menu_slot">Parking</string>
+
+    <string name="menu_viewAvailTable">Table Availability</string>
+    <string name="menu_viewAvailPark">Park Availability</string>
+
+    <string name="menu_myOrders">My Orders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
