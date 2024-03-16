@@ -30,7 +30,7 @@ The primary goal of putting in place is to encourage customers to purchase more 
 8. Parking Module
 
 # About Me
-<img src="./pic/347393526_250171240894141_1652025665265698400_n.jpg" alt="drawing" width="200"/>
+<img src="./screenshots/347393526_250171240894141_1652025665265698400_n.jpg" alt="drawing" width="200"/>
 
 Albert Sebastian<br>
 albertsebastian75@gmail.com<br>
@@ -73,6 +73,10 @@ Kerala, India
     <tr>
       <td align="center"><img src="./screenshots/A12.jpg" width="200"></td>
       <td align="center"><img src="./screenshots/staffHome.jpg" width="200"></td>
+      <td align="center"><img src="./screenshots/11.jpg" width="200"></td>
     </tr>
-  </table>
+    <tr>
+      <td align="center"><img src="./screenshots/12.jpg" width="200"></td>
+    </tr>
+</table>
   
